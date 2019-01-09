@@ -1,0 +1,30 @@
+---
+#commented line
+theatre:
+  - name: Sandhya
+    showtimes:
+      - 11:00
+      - 14:00
+    movies:
+      - A
+    price: 100
+    active: true
+  - name: PVR-Central
+    showtimes:
+      - 11:00
+      - 14:00
+      - 12:00
+    movies:
+      - A
+      - B
+      - C
+    price: 200
+    active: true
+  - name: GOKUL
+    showtimes:
+      - 11:00
+      - 14:00
+    movies:
+      - c
+    price: 90
+    active: false 

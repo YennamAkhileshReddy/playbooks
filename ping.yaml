@@ -1,0 +1,10 @@
+---
+- hosts: all
+  become:
+  tasks:
+  - name: find who is executing
+    command: whoami
+  - name: ping all
+    ping:
+  - name: find out current directry
+    command: pwd
